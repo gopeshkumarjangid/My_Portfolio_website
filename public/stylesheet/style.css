@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+.GKJ_main_Navbar {
+  backdrop-filter: blur(10px);
+}
+
+.GKJ_main_Navbar3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.GKJ_main_Nav ul li a {
+  padding: 0.5rem 0.75rem;
+}
+.GKJ_logo i{
+    height:45px;
+    width:45px;
+    background-color: rgb(6, 41, 107);
+    border-radius: 50%;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
