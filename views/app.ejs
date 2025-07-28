@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <hr lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="stylesheet/style.css" />
   <script src="javascripts/script.js"></script>
@@ -12,18 +13,20 @@
 
 <hr="GKJ_main_header bg-zinc-900 text-white font-sans transition-colors duration-300">
 
- 
+
   <header class="GKJ_main_Navbar w-full fixed top-0 left-0 shadow-md z-50">
     <div class="GKJ_main_Navbar2 mx-auto px-4 sm:px-6 lg:px-8">
       <div class="GKJ_main_Navbar3 flex justify-between items-center py-4">
-        
-        
+
+
         <div class="GKJ_logo flex items-center space-x-3">
-          <div class="w-[45px] h-[45px] bg-yellow-400 text-black rounded-full flex justify-center items-center font-bold text-3xl">G</div>
+          <div
+            class="w-[45px] h-[45px] bg-yellow-400 text-black rounded-full flex justify-center items-center font-bold text-3xl">
+            G</div>
           <div class="GKJ_logo_text font-bold tracking-wide">Portfolio</div>
         </div>
 
-        
+
         <div class="GKJ_main_Nav flex items-center space-x-6">
           <nav class="GKJ_main_Nav2 hidden md:block">
             <ul class="GKJ_main_Nav3 flex space-x-6 text-sm font-medium">
@@ -35,8 +38,9 @@
             </ul>
           </nav>
 
-        
-          <button id="GKJ_themeToggle" class="GKJ_Toggle_button p-1 rounded-full bg-yellow-400 text-black text-lg hover:bg-yellow-300 transition">
+
+          <button id="GKJ_themeToggle"
+            class="GKJ_Toggle_button p-1 rounded-full bg-yellow-400 text-black text-lg hover:bg-yellow-300 transition">
             <i id="GKJ_themeIcon" class="fas fa-moon"></i>
           </button>
         </div>
@@ -45,33 +49,42 @@
     </div>
   </header>
 
- 
+
   <main class="pt-28 px-8 w-full min-h-screen flex flex-col items-center justify-center">
 
-   
+
     <div class="GKJ_container flex flex-col md:flex-row items-center justify-between w-full max-w-3xl mb-7 gap-3">
-      
-    
+
+
       <div class="GKJ_container_image w-full md:w-1/2 flex justify-center">
         <img src="images/GKJ_image.jpg" alt="profile pic" class="rounded-full shadow-lg w-60 h-60 object-cover" />
       </div>
 
       <div class="GKJ_contianer_text text-center md:text-left w-full md:w-1/2">
-        <h3 class="text-sm font-semibold mb-2">Hey ! I'm <span class="text-yellow-400">Full Stack Web Developer</span></h3>
+       <h3 class="text-sm font-semibold mb-2">
+  Hey! I'm <span id="role-text" class="text-yellow-400">Full Stack Web Developer</span>
+</h3>
+
+
         <h1 class="text-2xl md:text-3xl font-bold">Gopesh Kumar Jangid</h1>
 
-       
+
         <div class="GKJ_CV_btn_grp flex flex-wrap items-center gap-4 mt-4 justify-center md:justify-start">
 
-          <a href="pdfs/Gopesh_CV-1.pdf" download class="GKJ_CV_btn_active bg-yellow-400 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-300 transition duration-300">Download CV</a>
+          <a href="pdfs/Gopesh_CV-1.pdf" download
+            class="GKJ_CV_btn_active bg-yellow-400 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-300 transition duration-300">Download
+            CV</a>
 
 
-          <a href="#contact" class="GKJ_btn_contact border border-yellow-400 text-yellow-400 font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 hover:text-black transition duration-300">Contact</a>
+          <a href="#contact"
+            class="GKJ_btn_contact border border-yellow-400 text-yellow-400 font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 hover:text-black transition duration-300">Contact</a>
 
           <div class="GKJ_social_media_icon flex items-center gap-3 text-lg text-yellow-500  ml-3">
-            <a href="https://github.com/gopeshkumarjangid" class="hover:scale-150 transition"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/gopesh-kumar-jangid-ab1569227" class="hover:scale-150 transition"><i class="fa-brands fa-linkedin"></i></a>
-            
+            <a href="https://github.com/gopeshkumarjangid" class="hover:scale-150 transition"><i
+                class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gopesh-kumar-jangid-ab1569227" class="hover:scale-150 transition"><i
+                class="fa-brands fa-linkedin"></i></a>
+
             <a href="#" class="hover:scale-150 transition"><i class="fa-brands fa-facebook"></i></a>
             <a href="#" class="hover:scale-150 transition"><i class="fa-brands fa-twitter"></i></a>
           </div>
@@ -80,7 +93,7 @@
       </div>
     </div>
 
- 
+
     <div class="GKJ_center_text text-center max-w-xl mb-8">
       <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
       <p class="text-lg">Explore my projects, experience, and skills through this interactive portfolio.</p>
@@ -88,233 +101,312 @@
   </main>
   <!-- <hr></hr> -->
 
-<!-- About page **************************************************************-->
+  <!-- About page **************************************************************-->
 
   <section id="about" class="GKJ_about_section w-full max-w-full min-h-screen mx-auto px-4 py-20 ">
-    <div class="GKJ_about_div bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-10 lg:p-14 transition-all duration-300">
-      
+    <div
+      class="GKJ_about_div bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-10 lg:p-14 transition-all duration-300">
+
       <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-4">
         About Me
       </h2>
-      
+
       <p class="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
-        Hi! I’m <span class="font-semibold text-black dark:text-white">Gopesh Kumar Jangid</span>, a dedicated <span class="text-yellow-500">Full Stack Web Developer</span> passionate about building modern, user-friendly web applications.
+        Hi! I’m <span class="font-semibold text-black dark:text-white">Gopesh Kumar Jangid</span>, a dedicated <span
+          class="text-yellow-500">Full Stack Web Developer</span> passionate about building modern, user-friendly web
+        applications.
       </p>
 
       <p class="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4 text-justify">
-        My approach blends creative design with clean, maintainable code. I specialize in technologies like HTML, CSS, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and EJS. I enjoy turning ideas into interactive experiences.
+        My approach blends creative design with clean, maintainable code. I specialize in technologies like HTML, CSS,
+        JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and EJS. I enjoy turning ideas into interactive
+        experiences.
       </p>
 
       <p class="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4 text-justify">
-        I believe in continuous learning and problem-solving. I love working on challenging projects that push my boundaries, and I take pride in writing efficient, scalable, and readable code.
+        I believe in continuous learning and problem-solving. I love working on challenging projects that push my
+        boundaries, and I take pride in writing efficient, scalable, and readable code.
       </p>
 
     </div>
   </section>
 
 
-<!-- <hr></hr> -->
+  <!-- <hr></hr> -->
 
-<!-- Education Section*****************************************************-->
-<section id="education" class="GKJ_education_section w-full max-w-6xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300 ">
-  <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-12">
-    Education
-  </h2>
+  <!-- Education Section*****************************************************-->
+  <section id="education"
+    class="GKJ_education_section w-full max-w-6xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300 ">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-12">
+      Education
+    </h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-    
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-8 transition-all duration-300">
-      <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">B.Tech – Computer Science & Engineering</h3>
-      <p class="text-gray-700 dark:text-gray-300">University Department of Rajasthan Technical University, Kota </p>
-      <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">2021 - 2025</p>
-      <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">Grade : 9.56</p>
-      <p class="text-sm text-gray-700 dark:text-gray-300 mt-4">Pursuing Bachelor's in Computer Science with a strong focus on full-stack development, data structures, and modern technologies.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-8 transition-all duration-300">
+        <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">B.Tech – Computer Science &
+          Engineering</h3>
+        <p class="text-gray-700 dark:text-gray-300">University Department of Rajasthan Technical University, Kota </p>
+        <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">2021 - 2025</p>
+        <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">Grade : 9.56</p>
+        <p class="text-sm text-gray-700 dark:text-gray-300 mt-4">Pursuing Bachelor's in Computer Science with a strong
+          focus on full-stack development, data structures, and modern technologies.</p>
+      </div>
+
+
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-8 transition-all duration-300">
+        <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">Senior Secondary (12th)</h3>
+        <p class="text-gray-700 dark:text-gray-300">Board of Secondary Education, Rajasthan</p>
+        <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">2019 - 2020</p>
+        <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">Grade : 99.40%</p>
+        <p class="text-sm text-gray-700 dark:text-gray-300 mt-4">Completed 12th with a focus on Science and Mathematics.
+          Strong foundation in logic, reasoning, and problem-solving.</p>
+      </div>
+    </div>
+  </section>
+  <!-- <hr></hr> -->
+  <!-- skills section************************************* -->
+
+  <section id="skills"
+    class="GKJ_skills_section w-full max-w-6xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-12">
+      Skills
+    </h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">HTML</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">CSS</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">JavaScript</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">Node.js</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">Express.js</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">MongoDB</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">IOT</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">C</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">C++</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">Java (Main)</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">Python</p>
+      </div>
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
+        <p class="font-semibold text-gray-800 dark:text-yellow-300">DSA</p>
+      </div>
+    </div>
+  </section>
+  <!-- <hr></hr> -->
+  <!-- Projects Section *********************************************************-->
+  <section id="projects"
+    class="GKJ_projects_section w-full max-w-6xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-12">
+      Projects
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">IoT Prepaid Electrical System</h3>
+        <p class="text-gray-700 dark:text-gray-300 text-sm">
+          Smart prepaid energy meter using IoT for remote power management and user-friendly automation.
+        </p>
+      </div>
+
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">IoT-Based Flight Controller</h3>
+        <p class="text-gray-700 dark:text-gray-300 text-sm">
+          A flight control unit for drones integrating IoT sensors, wireless data, and telemetry for safe navigation.
+        </p>
+      </div>
+
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">Codru Education Website</h3>
+        <p class="text-gray-700 dark:text-gray-300 text-sm">
+          A responsive full-stack platform built for online learning, featuring user authentication, quizzes, and
+          resources.
+        </p>
+      </div>
+
+      <div
+        class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">Women Safety Android App</h3>
+        <p class="text-gray-700 dark:text-gray-300 text-sm">
+          Android app with SOS alert, location sharing, and emergency contact features for women's safety.
+        </p>
+      </div>
     </div>
 
-    
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-8 transition-all duration-300">
-      <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">Senior Secondary (12th)</h3>
-      <p class="text-gray-700 dark:text-gray-300">Board of Secondary Education, Rajasthan</p>
-      <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">2019 - 2020</p>
-      <p class="text-gray-600 dark:text-gray-400 mt-1 text-sm">Grade : 99.40%</p>
-      <p class="text-sm text-gray-700 dark:text-gray-300 mt-4">Completed 12th with a focus on Science and Mathematics. Strong foundation in logic, reasoning, and problem-solving.</p>
-    </div>
-  </div>
-</section>
-<!-- <hr></hr> -->
-   <!-- skills section************************************* -->
-   
-<section id="skills" class="GKJ_skills_section w-full max-w-6xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300">
-  <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-12">
-    Skills
-  </h2>
 
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-  
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">HTML</p>
+    <div class="text-center mt-12">
+      <a href="https://github.com/gopeshkumarjangid" target="_blank"
+        class="inline-block bg-yellow-400 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-300 transition duration-300">
+        View More Projects
+      </a>
     </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">CSS</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">JavaScript</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">Node.js</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">Express.js</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">MongoDB</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">IOT</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">C</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">C++</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">Java (Main)</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">Python</p>
-    </div>
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-xl text-center p-4 shadow-md transition hover:scale-105">
-      <p class="font-semibold text-gray-800 dark:text-yellow-300">DSA</p>
-    </div>
-  </div>
-</section>
-<!-- <hr></hr> -->
- <!-- Projects Section *********************************************************-->
-<section id="projects" class="GKJ_projects_section w-full max-w-6xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300">
-  <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-12">
-    Projects
-  </h2>
+  </section>
+  <!-- <hr></hr> -->
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-    
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
-      <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">IoT Prepaid Electrical System</h3>
-      <p class="text-gray-700 dark:text-gray-300 text-sm">
-        Smart prepaid energy meter using IoT for remote power management and user-friendly automation.
-      </p>
-    </div>
-
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
-      <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">IoT-Based Flight Controller</h3>
-      <p class="text-gray-700 dark:text-gray-300 text-sm">
-        A flight control unit for drones integrating IoT sensors, wireless data, and telemetry for safe navigation.
-      </p>
-    </div>
-
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
-      <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">Codru Education Website</h3>
-      <p class="text-gray-700 dark:text-gray-300 text-sm">
-        A responsive full-stack platform built for online learning, featuring user authentication, quizzes, and resources.
-      </p>
-    </div>
-
-    <div class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl p-6 shadow-md hover:scale-105 transition duration-300">
-      <h3 class="text-xl font-semibold text-yellow-600 dark:text-yellow-400 mb-2">Women Safety Android App</h3>
-      <p class="text-gray-700 dark:text-gray-300 text-sm">
-        Android app with SOS alert, location sharing, and emergency contact features for women's safety.
-      </p>
-    </div>
-  </div>
-
- 
-  <div class="text-center mt-12">
-    <a href="https://github.com/gopeshkumarjangid" target="_blank" class="inline-block bg-yellow-400 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-300 transition duration-300">
-      View More Projects
-    </a>
-  </div>
-</section>
-<!-- <hr></hr> -->
-
-<!-- Contact Section ****************************************************-->
-<section id="contact" class="GKJ_contact_section w-full max-w-4xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300">
-  <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-10">
-    Let's Connect 💬
-  </h2>
-  <% if (typeof msg !== "undefined") { %>
-  <div class="text-center mb-6 px-4 py-3 rounded-xl font-semibold 
+  <!-- Contact Section ****************************************************-->
+  <section id="contact"
+    class="GKJ_contact_section w-full max-w-4xl mx-auto px-4 py-20 bg-white dark:bg-zinc-900 transition-colors duration-300">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-yellow-600 dark:text-yellow-400 mb-10">
+      Let's Connect 💬
+    </h2>
+    <% if (typeof msg !=="undefined" ) { %>
+      <div class="text-center mb-6 px-4 py-3 rounded-xl font-semibold 
     <%= status === 'success' ? 'bg-green-100 text-green-700 border border-green-400' 
                              : 'bg-red-100 text-red-700 border border-red-400' %>">
-    <%= msg %>
-  </div>
-<% } %>
+        <%= msg %>
+      </div>
+      <% } %>
 
 
-  <form action="/create" method="post" class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-10 transition-all duration-300">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-     
-      <div>
-        <label for="name" class="block text-sm font-semibold text-gray-700 dark:text-yellow-200 mb-1">Name</label>
-        <input type="text" name="name" id="name" placeholder="Your name" class="w-full px-4 py-2 rounded-xl border border-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-zinc-700 dark:text-white">
+        <form action="/create" method="post"
+          class="bg-yellow-50 dark:bg-zinc-800 border border-yellow-400 dark:border-zinc-600 rounded-3xl shadow-lg p-6 md:p-10 transition-all duration-300">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <div>
+              <label for="name" class="block text-sm font-semibold text-gray-700 dark:text-yellow-200 mb-1">Name</label>
+              <input type="text" name="name" id="name" placeholder="Your name"
+                class="w-full px-4 py-2 rounded-xl border border-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-zinc-700 dark:text-white">
+            </div>
+
+
+            <div>
+              <label for="email"
+                class="block text-sm font-semibold text-gray-700 dark:text-yellow-200 mb-1">Email</label>
+              <input type="email" name="email" id="email" placeholder="you@example.com"
+                class="w-full px-4 py-2 rounded-xl border border-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-zinc-700 dark:text-white">
+            </div>
+          </div>
+
+
+          <div class="mt-6">
+            <label for="message"
+              class="block text-sm font-semibold text-gray-700 dark:text-yellow-200 mb-1">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message..."
+              class="w-full px-4 py-3 rounded-xl border border-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-zinc-700 dark:text-white resize-none"></textarea>
+          </div>
+
+
+          <div class="mt-8 text-center">
+            <button type="submit"
+              class="bg-yellow-400 text-black font-semibold py-2 px-8 rounded-full hover:bg-yellow-300 transition duration-300 shadow-md">
+              Send Message ✨
+            </button>
+          </div>
+        </form>
+  </section>
+
+  <!-- footer section******************************************** -->
+  <footer class="bg-gray-900 text-gray-300 py-8">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
+
+      <div
+        class="md:w-2/3 text-center md:text-left flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
+        <div
+          class="w-12 h-12 bg-yellow-400 text-black rounded-full flex justify-center items-center font-extrabold text-3xl shadow-lg">
+          G
+        </div>
+        <p class="text-lg max-w-md mx-auto md:mx-0 pt-2 leading-relaxed">
+          Full Stack Web Developer
+        </p>
       </div>
 
-   
-      <div>
-        <label for="email" class="block text-sm font-semibold text-gray-700 dark:text-yellow-200 mb-1">Email</label>
-        <input type="email" name="email" id="email" placeholder="you@example.com" class="w-full px-4 py-2 rounded-xl border border-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-zinc-700 dark:text-white">
+      <div class="md:w-1/3 flex justify-center md:justify-end space-x-8 text-2xl text-yellow-400">
+        <a href="https://github.com/gopeshusername" target="_blank" rel="noopener noreferrer"
+          class="hover:scale-125 hover:text-yellow-300 transition-transform transition-colors duration-300">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/gopeshusername" target="_blank" rel="noopener noreferrer"
+          class="hover:scale-125 hover:text-yellow-300 transition-transform transition-colors duration-300">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/gopeshusername" target="_blank" rel="noopener noreferrer"
+          class="hover:scale-125 hover:text-yellow-300 transition-transform transition-colors duration-300">
+          <i class="fab fa-twitter"></i>
+        </a>
       </div>
+
     </div>
 
-   
-    <div class="mt-6">
-      <label for="message" class="block text-sm font-semibold text-gray-700 dark:text-yellow-200 mb-1">Message</label>
-      <textarea id="message" name="message" rows="5" placeholder="Type your message..." class="w-full px-4 py-3 rounded-xl border border-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 dark:bg-zinc-700 dark:text-white resize-none"></textarea>
+    <div class="mt-6 text-center text-xs text-gray-500 select-none">
+      &copy; 2025 Gopesh Kumar Jangid. All rights reserved.
     </div>
+  </footer>
+  <script>
+  const roles = ["Full Stack Web Developer", "Product Manager", "Computer Science Engineer"];
+  const roleSpan = document.getElementById("role-text");
+  let roleIndex = 0;
+  let charIndex = 0;
+  let typing = true;
 
-    
-    <div class="mt-8 text-center">
-      <button type="submit" class="bg-yellow-400 text-black font-semibold py-2 px-8 rounded-full hover:bg-yellow-300 transition duration-300 shadow-md">
-        Send Message ✨
-      </button>
-    </div>
-  </form>
-</section>
+  function typeRole() {
+    const currentRole = roles[roleIndex];
 
-<!-- footer section******************************************** -->
-<footer class="bg-gray-900 text-gray-300 py-8">
-  <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
-    
-    <div class="md:w-2/3 text-center md:text-left flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
-      <div class="w-12 h-12 bg-yellow-400 text-black rounded-full flex justify-center items-center font-extrabold text-3xl shadow-lg">
-        G
-      </div>
-      <p class="text-lg max-w-md mx-auto md:mx-0 pt-2 leading-relaxed">
-        Full Stack Web Developer
-      </p>
-    </div>
-    
-    <div class="md:w-1/3 flex justify-center md:justify-end space-x-8 text-2xl text-yellow-400">
-      <a href="https://github.com/gopeshusername" target="_blank" rel="noopener noreferrer" class="hover:scale-125 hover:text-yellow-300 transition-transform transition-colors duration-300">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://linkedin.com/in/gopeshusername" target="_blank" rel="noopener noreferrer" class="hover:scale-125 hover:text-yellow-300 transition-transform transition-colors duration-300">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://twitter.com/gopeshusername" target="_blank" rel="noopener noreferrer" class="hover:scale-125 hover:text-yellow-300 transition-transform transition-colors duration-300">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </div>
-    
-  </div>
+    if (typing) {
+      if (charIndex <= currentRole.length) {
+        roleSpan.textContent = currentRole.substring(0, charIndex);
+        charIndex++;
+        setTimeout(typeRole, 100); // Typing speed
+      } else {
+        typing = false;
+        setTimeout(typeRole, 1000); // Wait after full word
+      }
+    } else {
+      if (charIndex >= 0) {
+        roleSpan.textContent = currentRole.substring(0, charIndex);
+        charIndex--;
+        setTimeout(typeRole, 100); // Erasing speed
+      } else {
+        typing = true;
+        roleIndex = (roleIndex + 1) % roles.length;
+        setTimeout(typeRole, 500); // Wait before next word starts typing
+      }
+    }
+  }
 
-  <div class="mt-6 text-center text-xs text-gray-500 select-none">
-    &copy; 2025 Gopesh Kumar Jangid. All rights reserved.
-  </div>
-</footer>
+  typeRole();
+</script>
 
 
 
 
+  </body>
 
-</body>
-</html>
+  </html>
